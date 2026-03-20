@@ -1,0 +1,20 @@
+date:06/03/2026 --> class 5
+
+Task:
+
+1.How to fetch only first and last line of a file using head and tail?
+Ans : head -n+1<file_name>&&tail -n-1<file_name>.
+      By using above command,first and last line content is displayed on the terminal
+
+2.what is the use of head file1.txt file2.txt file3.txt?
+Ans : Head command is to display 10 lines of a file. 
+      head file1.txt file2.txt file3.txt when we execute this command on the terminal 
+      content of each file displayed on the terminal separately with header line(file name)
+
+3.How to supress file headers when using multiple files?
+Ans : head -q file1.txt file2.txt file3.txt
+      by uding -q flag we can supress the file header.
+
+4.How do you print all lines except the last 10 lines?
+Ans : head -n -10<file name>.
+      above command will display all lines of a file except last 10 lines	  
